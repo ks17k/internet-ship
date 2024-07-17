@@ -1,0 +1,110 @@
+
+    html, body {
+        /* background-color: #ececec; */
+        background: url('https://graniplitka.ru/images/cms/data/import_files/91/910e0c972c3c11eca091005056b618db_2ce2d9142c3d11eca091005056b618db.jpg');
+    }
+
+    * {
+        font-family: Bebas Neue;
+
+    }
+
+    h1 {
+         font-size: 60px;
+         color: #bf3838;
+         margin: 0;
+         margin-right: 40px;
+    }
+
+    .productPreview {
+         width: 170px;
+         height: 200px;
+    }
+    .productImage {
+         max-width: 50%;
+         max-height: 50%;
+    }
+
+    .product {
+        border: 1px black solid;
+        display: flex;
+        height: 210px;
+        margin-top: 20px;
+        background-color: #f4e4f5;
+        border-radius: 20px;
+        padding: 10px;
+        width: 80%;
+    }
+
+
+    .productList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    h2 {
+        width: 200px;
+    }
+
+
+
+    button {
+        margin-left: auto;
+    }
+
+    .price {
+        margin-left: auto;
+        text-align: center;
+    }
+    .navigation {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+         background-color: white;
+         padding: 0;
+         margin: 0;
+    }
+
+    a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #bf3838;
+        font-size: 20px;
+    }
+    .productDetails {
+        background: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        border-radius: 20px;
+        border: 1px black solid;
+        padding: 10px;
+
+
+    }
+    .productPrice {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .productTitle  * {
+        margin-top: 10px;
+        font-style: normal;
+        margin-bottom: 20px;
+    }
+    .productDescription  {
+       background: white;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-top: 20px;
+        border-radius: 20px;
+        border: 1px black solid;
+        padding: 10px;
+    }
