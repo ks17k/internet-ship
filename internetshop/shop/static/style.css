@@ -68,7 +68,7 @@
          margin: 0;
     }
 
-    a {
+     .navlink {
         margin-left: 20px;
         text-decoration: none;
         color: #bf3838;
@@ -107,4 +107,9 @@
         border-radius: 20px;
         border: 1px black solid;
         padding: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #bf3838;
     }
