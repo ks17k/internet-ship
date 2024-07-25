@@ -51,8 +51,9 @@
 
 
     button {
-        margin-left: auto;
-    }
+       margin-left: auto;
+
+   }
 
     .price {
         margin-left: auto;
@@ -107,9 +108,104 @@
         border-radius: 20px;
         border: 1px black solid;
         padding: 10px;
+        color: black;
     }
 
     a {
         text-decoration: none;
         color: #bf3838;
     }
+
+    .filter {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        background: white;
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .searchInput {
+        font-size: 20px;
+        border: none;
+        background-color: #f4e4f5;
+        border-radius: 10px;
+        padding: 5px;
+        width: 90%;
+        margin-right: 10px;
+    }
+    .review {
+       background-color: #f4e4f5;
+       padding: 10px;
+       border-radius: 10px;
+     }
+
+     .createReview{
+          display: flex;
+          flex-direction: column;
+     }
+     .createReview * {
+       margin: 0 !important;
+       padding: 0 !important;
+       font-size: 20px;
+        border: none;
+        background-color: white;
+        border-radius: 10px;
+
+     }
+
+     .createReview input {
+        background-color: #f4e4f5;
+     }
+
+     .createReview textarea {
+        background-color: #f4e4f5;
+     }
+     .createReview button {
+        width: fit-content;
+        padding: 10px !important;
+        border: none;
+        margin-top: 10px !important;
+       background-color: #f4e4f5;
+       border: 1px black solid;
+       margin-left: auto !important;
+     }
+
+     .paymentCard {
+    margin-top: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+
+    border-radius: 20px;
+    background: white;
+
+    padding: 10px;
+   }
+   .vspace {
+    height: 10px;
+}
+
+.paymentButton {
+    width: 100%;
+}
+.paymentForm {
+    display: flex;
+    flex-direction: column;
+}
+.paymentForm input {
+    background-color: #e0e0e0;
+    padding: 5px !important;
+
+    font-size: 20px;
+    border: none;
+    padding: 11px;
+    border-radius: 10px;
+}
+.createReview select {
+    background-color: #f4e4f5;
+    padding: 5px !important;
+}

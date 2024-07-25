@@ -1,9 +1,13 @@
 from django.contrib import admin
+from .models import Product, Review
 
-from .models import Product
 
-
-# Register your models here.
 class ProductAdmin(admin.ModelAdmin):
     pass
+
+class ReviewAdmin(admin.ModelAdmin):
+    pass
+
+# Register your models here.
 admin.site.register(Product, ProductAdmin)
+admin.site.register(Review, ReviewAdmin)
